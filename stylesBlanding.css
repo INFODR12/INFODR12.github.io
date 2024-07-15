@@ -994,6 +994,7 @@ img {
         padding: 2em;
         border: 1px solid #888;
         width: 85%;
+        height:37em;
         max-width: 40em;
         display: flex;
         flex-direction: column;

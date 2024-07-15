@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var calendlyModalContent = document.querySelector('#calendlyModal .modal-content');
   var closeModal = document.getElementById('closeModal');
     var button = document.querySelector('.button');
-    var button1 = document.querySelector('.button1');
 
      calendlyModal.style.display = 'none';
     
@@ -31,16 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     } else {
         console.log('Button not found');
-    }
-
-    if (button1) {
-        button1.addEventListener('click', function() {
-            calendlyModal.style.display = 'block';
-            calendlyModalContent.classList.remove('float-out');
-            calendlyModal.classList.remove('fade-out');
-        });
-    } else {
-        console.log('Button1 not found');
     }
 
     window.addEventListener('click', function(event) {

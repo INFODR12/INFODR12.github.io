@@ -914,6 +914,7 @@ img {
         width: 85%;
         max-width: 40em;
         display: flex;
+        height:37em;
         flex-direction: column;
         align-items: center;
         transform: translateY(-50px);
